@@ -16,8 +16,8 @@ const Index = () =>
           <p className="lead">This is a simple digital bookmark to keep your place in your library of books</p>
           <hr className="my-4"/>
             <p>Add, View, Update or Delete book info</p>
-            <a className="btn btn-primary btn-lg" href="/form" role="button">New Book</a>
-            <a className="btn btn-primary btn-lg mx-2" href="/list" role="button">View Books</a>
+            <a className="btn btn-info btn-lg mx-1" href="/form" role="button">New Book</a>
+            <a className="btn btn-info btn-lg mx-1" href="/list" role="button">View Books</a>
         </div>
       </div>
 
