@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');	// directory for the jsx files
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
 app.get('/', (req, res) => res.render('index.jsx'))
-require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app)
+require('./routes/apiRoutes')(app);
 
 app.listen(PORT, _ => console.log('listening at: ' + PORT))
